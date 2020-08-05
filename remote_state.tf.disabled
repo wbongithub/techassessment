@@ -1,0 +1,9 @@
+terraform {
+  backend "s3" {
+    bucket         = "replace-me-with-output-of-remote_state_bucket"
+    key            = "core/terraform.tfstate"
+    region         = "replace-me-with-region"
+    encrypt        = true
+    dynamodb_table = "terraform-state-lock"
+  }
+}

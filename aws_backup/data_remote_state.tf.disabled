@@ -1,0 +1,9 @@
+data "terraform_remote_state" "core" {
+  backend = "s3"
+  config = {
+    bucket  = "replace-me-with-output-of-remote_state_bucket"
+    key     = "core/terraform.tfstate"
+    encrypt = true
+    region  = "replace-me-with-region"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "django_secret_key": "g+cy2q816xje*f#k=9z!e*t%h-7tt(tbo$q^1n)l0gd1=x8$65",
+  "db_username": "exampleuser",
+  "db_password": "nyHtW6DKBEFSJW7CihcZ",
+  "django_admin_user": "admin",
+  "django_admin_password": "password",
+  "django_admin_mail": "foo@bar.com"
+}
